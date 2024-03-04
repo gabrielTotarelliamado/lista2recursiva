@@ -16,7 +16,7 @@ public class exc06con {
         } else {
         	
         	if(m>1){
-             x = (1/z);
+             x = x + (1.0/z);
              n=m-1;
         	return seri(n,x,z=1,m-1);
         	}else {
